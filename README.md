@@ -20,7 +20,7 @@ python -m venv venv2
 pip install -r requirements.txt
 
 # Создаем БД
-Для этого достаточно запустить [DDL-comands.sql](https://github.com/EvgenyGladyshev/Automation_and_deployment/tree/master/sql), и запустить скрипт создания БД
+Для этого достаточно запустить DDL-comands.sql в папке sql, и запустить скрипт создания БД
 
 # Запускаем скрипт генерации csv файлов
 python generate_sales.py
