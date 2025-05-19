@@ -9,7 +9,7 @@
 - [Скрипт занесения `csv` файлов в БД](https://github.com/EvgenyGladyshev/Automation_and_deployment/blob/master/read_files.py)
 
 # Как запустить скрипт
-
+```
 - Создаем виртуальное окружение
 python -m venv venv2
 
@@ -27,3 +27,4 @@ python generate_sales.py
 
 - Запускам скрипт занесения csv файлов в БД
 python read_files.py
+```
