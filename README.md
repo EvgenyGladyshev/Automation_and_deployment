@@ -9,22 +9,21 @@
 - [Скрипт занесения `csv` файлов в БД](https://github.com/EvgenyGladyshev/Automation_and_deployment/blob/master/read_files.py)
 
 # Как запустить скрипт
-```
-# Создаем виртуальное окружение
+
+- Создаем виртуальное окружение
 python -m venv venv2
 
-# Активируем виртуальное окружение
-./venv2/scripts/activate # source venv2/bin/activate для Linux
+- Активируем виртуальное окружение
+./venv2/scripts/activate #source venv2/bin/activate для Linux
 
-# Устанавливаем зависимости
+- Устанавливаем зависимости
 pip install -r requirements.txt
 
-# Создаем БД
-Для этого достаточно запустить DDL-comands.sql в sql, и запустить скрипт создания БД
+- Создаем БД
+Для этого достаточно запустить [DDL-comands.sql](https://github.com/EvgenyGladyshev/Automation_and_deployment/tree/master/sql), и запустить скрипт создания БД
 
-# Запускаем скрипт генерации csv файлов
+- Запускаем скрипт генерации csv файлов
 python generate_sales.py
 
-# Запускам скрипт занесения csv файлов в БД
+- Запускам скрипт занесения csv файлов в БД
 python read_files.py
-```
